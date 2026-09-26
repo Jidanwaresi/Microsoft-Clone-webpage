@@ -1,0 +1,110 @@
+/*Base setup*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+   font-family:sans-serif;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+/*Base setup*/
+
+/*Header-Navbar*/
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 2rem;
+    width: 100%;
+    padding: 0 100px;
+    margin-top: 10px;
+}
+.navLeft img{
+    width: 130px;
+    object-fit: contain;
+    
+}
+.navLeft{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    font-size: 14px;
+}
+#firstA{
+    margin-left: 1rem;
+}
+.nav-item a:hover{
+    text-decoration: underline;
+    text-underline-offset: 8px;
+    text-decoration-thickness: 2.5px;
+
+}
+.nav-item{
+    display: flex;
+    gap: 1.5rem;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: 495;
+    cursor: pointer;
+}
+.navRight{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    font-size: 14px;
+}
+.navLink{
+    display: flex;
+    gap: 5px;
+    height:20px;
+}
+.navRight .navLink:hover{
+    border-bottom: 3px solid black;
+}
+/*Header-Navbar*/
+
+/*Hero Section*/
+main{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.hero-sec{
+    width: 100%;
+    min-height: 60vh;
+    /* padding-left: 110px; */
+    padding-left: 6rem;
+    margin-top: 1rem;
+
+    background-image: url(https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Hero-Desktop-Surface-Portfolio-Snapdragon-Platinum-Standard?&resMode=sharp2&op_usm=1.5,0.65,15,0&wid=3840&hei=2160&qlt=85&fit=constrain&dpr=on,2);
+    background-position: center;
+    background-size: cover;
+
+}
+#new{
+    padding: 8px 15px;
+    background-color: #FFB900;
+    border: none;
+    border-radius: 4px;
+    font-weight: 500;
+}
+.hero-sec h2{
+    font-weight: 500;
+    font-size: 2.7rem;
+    letter-spacing: 1px;
+    color: #F4FAFD;
+}
+.hero-sec p{
+    font-size: 1rem;
+    line-height: 1.3rem;
+    color: #F4FAFD;
+}
