@@ -129,3 +129,29 @@ section{
     line-height: 1.3rem;
     color: #F4FAFD;
 }
+/*Hero Section*/
+/*Hero btn sections*/
+.hero-btns{
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    gap: 2.5rem;
+    width: 100%;
+    /* background-color: #FFB900; */
+
+}
+.hero-Microsoft365{
+    color: #004275;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 548;
+    align-self: center;
+}
+.hero-Microsoft365 img{
+    margin-bottom: 7px;
+}
+.hero-Microsoft365 p{
+    text-decoration: underline;
+    text-underline-offset: 8px;
+    text-decoration-thickness: 2px;
+}
