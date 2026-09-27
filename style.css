@@ -281,9 +281,13 @@ section{
     color: white;
     border: none;
     border-radius: 4px;
+    font-weight: bold;
 }
 #product-btn:hover{
     background-color:#006DC1;
     cursor: pointer;
-
+}
+.container:hover{
+    cursor: pointer;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.15);
 }
