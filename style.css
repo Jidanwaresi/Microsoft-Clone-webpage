@@ -182,7 +182,12 @@ section{
     border: .8px solid #E7E7E7;
     padding: 10px 10px;
     border-radius: .9rem;
+    transition: all 0.3s ease;
 
+}
+.product-div:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.15);
 }
 .product-details{
     display: flex;
