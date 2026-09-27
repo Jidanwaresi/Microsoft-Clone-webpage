@@ -78,6 +78,10 @@ main{
     display: flex;
     flex-direction: column;
 }
+section{
+    display: flex;
+    align-items: center;
+}
 .hero-sec{
     width: 100%;
     min-height: 60vh;
@@ -90,12 +94,18 @@ main{
     background-size: cover;
 
 }
+.hero-txt{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
 #new{
     padding: 8px 15px; /*top+bottom & left +right*/
     background-color: #FFB900;
     border: none;
     border-radius: 4px;
     font-weight: 500;
+    width: fit-content;
 }
 #learn-more{
     padding: 15px 20px ;
@@ -103,6 +113,7 @@ main{
     border: none;
     font-weight: 600;
     cursor: pointer;
+    width: fit-content;
 }
 #learn-more:hover{
     background-color: rgb(218, 205, 205);
