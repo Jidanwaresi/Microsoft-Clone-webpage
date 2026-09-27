@@ -6,7 +6,7 @@
 }
 html,body{
     width: 100%;
-   font-family:sans-serif;
+   font-family:"Segoe UI Variable Text", "Segoe UI", segoeui, "Helvetica Neue", helvetica, arial, sans-serif;
 }
 body{
     min-height: 100vh;
@@ -42,7 +42,7 @@ nav{
 .nav-item a:hover{
     text-decoration: underline;
     text-underline-offset: 8px;
-    text-decoration-thickness: 2.5px;
+    text-decoration-thickness: 2.3px;
 
 }
 .nav-item{
@@ -68,7 +68,7 @@ a{
     height:20px;
 }
 .navRight .navLink:hover{
-    border-bottom: 3px solid black;
+    border-bottom: 2.3px solid black;
 }
 /*Header-Navbar*/
 
@@ -84,7 +84,7 @@ section{
 }
 .hero-sec{
     width: 100%;
-    min-height: 60vh;
+    min-height: 70vh;
     /* padding-left: 110px; */
     padding-left: 6rem;
     margin-top: 1rem;
@@ -138,13 +138,14 @@ section{
     gap: 2.5rem;
     width: 100%;
     /* background-color: #FFB900; */
+    margin-top: 1.7rem;
 
 }
 .hero-Microsoft365{
     color: #004275;
     text-align: center;
     font-size: 15px;
-    font-weight: 548;
+    font-weight: 550;
     align-self: center;
 }
 .hero-Microsoft365 img{
@@ -154,4 +155,67 @@ section{
     text-decoration: underline;
     text-underline-offset: 8px;
     text-decoration-thickness: 2px;
+}
+/*Hero btn sections*/
+.product-box{
+    width: 100%;
+    padding: 2rem 1.7rem;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 2rem;
+}
+.product-img img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.product-img{
+    margin-bottom: 5px;
+}
+.product-div{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .8rem;
+    border: .8px solid #E7E7E7;
+    padding: 10px 10px;
+    border-radius: .9rem;
+
+}
+.product-details{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+
+    
+}
+.product-details h3{
+    font-size: 1rem;
+    font-weight: 630;
+    line-height: 24px;
+    color: rgb(14, 23, 38);
+    margin-bottom: .75rem;
+}
+.product-details p{
+    margin-bottom: 2rem;
+    line-height: 1.5rem;
+}
+#Pro-btn{
+    padding: 10px 15px;
+    border-radius: 4px;
+    border: none;
+    background-color: #006DC1;
+    color: white;
+    /* margin-top: 3rem; */
+    font-weight: 600; 
+    cursor: pointer;
+    width: fit-content;
+}
+#Pro-btn:hover{
+    background-color:#15406F;
+}
+.product-details button{
+    margin-top: auto;
+    margin-bottom: 10px;
 }
