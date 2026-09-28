@@ -198,7 +198,7 @@ section{
 }
 .product-details h3{
     font-size: 1rem;
-    font-weight: 630;
+    font-weight: 700;
     line-height: 24px;
     color: rgb(14, 23, 38);
     margin-bottom: .75rem;
@@ -296,3 +296,111 @@ section{
     cursor: pointer;
     box-shadow: 0 8px 25px rgba(0,0,0,0.15);
 }
+
+/*Business Section*/
+.business-section {
+    width: 100%;
+    padding: 2rem 5rem;
+    background-color: #DCEEF8;
+    display: block;
+}
+
+.business-title {
+    margin: 0 0 1.5rem 0;
+}
+.business-section h2{
+    font-size: 2rem;
+    font-weight: 500;
+    color: rgb(14, 23, 38);
+}
+
+.business-grid {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.5rem;
+}
+
+
+/*Cards*/
+.business-card {
+    width: 100%;
+    min-height: 380px;
+
+    background-color: white;
+
+    border: 1px solid #e7e7e7;
+    border-radius: 14px;
+
+    /* padding: 10px; */
+    padding: .7rem .6rem;
+
+    display: flex;
+    flex-direction: column;
+
+    transition: all 0.3s ease;
+}
+
+.business-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+
+/*Image*/
+.business-image {
+    margin-bottom: 10px;
+    width: 100%;
+    /* object-fit: contain; */
+}
+.business-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+
+    border-radius: 8px;
+}
+
+
+/*Details*/
+.business-details {
+    flex: 1;
+
+    display: flex;
+    flex-direction: column;
+
+    padding: 1rem 0.5rem 0.5rem;
+}
+
+.business-details h3 {
+    margin-bottom: 0.8rem;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.business-details p {
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 24px;
+    font-style: normal;
+    color: rgb(23, 37, 61);
+}
+
+/*Buttons*/
+.business-btn {
+    width: fit-content;
+    margin-top: auto;
+    padding: 8px 14px;
+    color: white;
+    background-color: #0078d4;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.business-btn:hover {
+    background-color: #006dc1;
+}
+/* Business Section */
