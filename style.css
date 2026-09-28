@@ -26,7 +26,7 @@ nav{
     margin-top: 10px;
 }
 .navLeft img{
-    width: 130px;
+    width: 110px;
     object-fit: contain;
     
 }
@@ -34,7 +34,7 @@ nav{
     display: flex;
     align-items: center;
     gap: 2rem;
-    font-size: 14px;
+    font-size: 12px;
 }
 #firstA{
     margin-left: 1rem;
@@ -58,10 +58,28 @@ a{
 }
 .navRight{
     display: flex;
-    gap: 1rem;
+    gap: 1.3rem;
     align-items: center;
-    font-size: 14px;
+    font-size: 12px;
 }
+
+.circle a{
+    display: inline-flex;
+    width: 2rem;
+    height: 2rem;
+    padding: 16px;
+    box-sizing: border-box;
+    border: 1px solid #393939;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 14px;  
+
+    
+
+}
+
 .navLink{
     display: flex;
     gap: 5px;
@@ -69,6 +87,9 @@ a{
 }
 .navRight .navLink:hover{
     border-bottom: 2.3px solid black;
+}
+.circle a:hover{
+   text-decoration-line: none;
 }
 /*Header-Navbar*/
 
