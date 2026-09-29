@@ -425,7 +425,7 @@ section{
 /* less plastic,more planet Section */
 
 /* follow- Microsoft- Social links */
-/* .social-links{
+.social-links{
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -463,5 +463,5 @@ section{
 }
 .social-links a:hover{
     box-shadow: 0 0 4px rgba(0, 0, 0, 0.15);
-} */
+}
 /* follow- Microsoft- Social links */
