@@ -465,3 +465,18 @@ section{
     box-shadow: 0 0 4px rgba(0, 0, 0, 0.15);
 }
 /* follow- Microsoft- Social links */
+
+/*footer section*/
+footer{
+    width: 100%;
+    background-color: #F2F2F2;
+    padding-block: 3rem;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2rem;
+}
+.footer-box{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+}
