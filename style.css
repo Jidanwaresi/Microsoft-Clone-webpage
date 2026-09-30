@@ -344,7 +344,6 @@ section{
 .business-card {
     width: 100%;
     min-height: 380px;
-
     background-color: white;
 
     border: 1px solid #e7e7e7;
@@ -355,7 +354,6 @@ section{
 
     display: flex;
     flex-direction: column;
-
     transition: all 0.3s ease;
 }
 
@@ -369,7 +367,6 @@ section{
 .business-image {
     margin-bottom: 10px;
     width: 100%;
-    /* object-fit: contain; */
 }
 .business-image img {
     width: 100%;
@@ -479,4 +476,25 @@ footer{
     display: flex;
     flex-direction: column;
     align-items: baseline;
+    gap: 1rem;
+    padding: 10px 5px;
+    margin-top: -20px;
 }
+.footer-box h5{
+    color: #6A6661;
+    font-size: 15px ;
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 20px;
+}
+.footer-box a{
+    font-size: 10px;
+    color: rgb(97, 97, 97);
+    font-weight: 400;
+}
+.footer-box a:hover{
+    text-decoration: underline;
+    text-underline-offset: 1px;
+    text-decoration-thickness: .5px;
+}
+/*footer section*/
